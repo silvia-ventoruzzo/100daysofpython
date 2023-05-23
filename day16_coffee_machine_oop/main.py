@@ -5,12 +5,13 @@ from day16_coffee_machine_oop.menu import Menu, MenuItem
 from day16_coffee_machine_oop.coffee_maker import CoffeeMaker
 from day16_coffee_machine_oop.money_machine import MoneyMachine
 
+coffee_machine = CoffeeMaker()
+money_machine = MoneyMachine()
+menu = Menu()
+
 is_on = True
 
 while is_on:
-    coffee_machine = CoffeeMaker()
-    money_machine = MoneyMachine()
-    menu = Menu()
     order_name = input(f'What would you like to order? ({menu.get_items()})')
     if order_name == 'report':
         coffee_machine.report()
