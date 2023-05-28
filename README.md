@@ -7,3 +7,7 @@ _Starting with intermediate level_
 * **Day 15**: Create the code for a coffee machine
 * **Day 16**: Coffee machine using OOP
 * **Day 17**: Use OOP to create a quiz
+* **Day 18**: Create images using Turtle Graphics
+* **Day 19**: Create a race using Turtle Graphics
+* **Day 20**: Create the snake game (pt1)
+* **Day 21**: Create the snake game (pt2)
