@@ -14,22 +14,16 @@ class Snake:
         self.parts = []
         self.color = color
         self.part_length = part_length
-        self.head_position = head_position
-        self.initial_length = initial_length
+        # self.head_position = head_position
+        # self.initial_length = initial_length
+        self.positions = [(head_position[0]-20*n, head_position[1]) for n in range(initial_length)]
         self.create_snake()
         self.head = self.parts[0]
         
     # Step 1: Create the snake body
     def create_snake(self):
-        for n in range(self.initial_length):
-            part = Turtle(shape='square')
-            part.color(self.color)
-            part.penup()
-            x_position = self.head_position[0] if n == 0 else x_position
-            y_position = self.head_position[1] if n == 0 else y_position
-            part.setposition(x=x_position, y=y_position)
-            x_position -= self.part_length
-            self.parts.append(part)
+        for position in self.positions:
+            self.add_part(position)
             
     # Step 2: Move the snake
     def move(self):
@@ -62,4 +56,17 @@ class Snake:
     def left(self):
         if self.head.heading() != RIGHT:
             self.head.setheading(LEFT)
+            
+    # Part 7: Detect a collision with its own tail
+    def add_part(self, position):
+        part = Turtle(shape='square')
+        part.color(self.color)
+        part.penup()
+        part.setposition(x=position[0], y=position[1])
+        self.parts.append(part)
     
+    def extend(self):
+        '''
+        Add new part to snake when it its the food.
+        '''
+        self.add_part(self.parts[-1].position())
