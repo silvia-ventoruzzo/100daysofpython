@@ -12,3 +12,5 @@ _Starting with intermediate level_
 * **Day 20**: Create the snake game (pt1)
 * **Day 21**: Create the snake game (pt2)
 * **Day 22**: Create the pong game
+* **Day 23**: Create turtle crossing game
+* **Day 24**: Mail merge
