@@ -33,12 +33,11 @@ while len(correct_guesses) < 50:
         location = tuple(state_info[['x', 'y']].itertuples(index=False, name=None))[0]
         name = state_info['state'].iat[0]
         correct_guesses.append(name)
-        text_turtle.penup()
+        # text_turtle.penup()
         text_turtle.goto(location)
         text_turtle.write(name, True, align="center")
-
+        
     # Exit game if answer exit
     if answer_state == 'exit':
+        state_positions[~state_positions['state'].isin(correct_guesses)]['state'].to_frame().to_csv('states_to_learn.csv')
         break
-
-# state_positions[~state_positions['state'].isin(correct_guesses)]['state'].to_frame().to_csv('states_to_learn.csv')
