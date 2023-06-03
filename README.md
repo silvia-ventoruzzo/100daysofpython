@@ -14,3 +14,5 @@ _Starting with intermediate level_
 * **Day 22**: Create the pong game
 * **Day 23**: Create turtle crossing game
 * **Day 24**: Mail merge
+* **Day 25**: US States game
+* **Day 26**: NATO alphabet project
