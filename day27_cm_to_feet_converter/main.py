@@ -29,3 +29,5 @@ def button_clicked():
     feet_value.config(text=str(feet))
 button = tkinter.Button(text='Calculate', command=button_clicked)
 button.grid(row=2, column=1)
+
+window.mainloop()
