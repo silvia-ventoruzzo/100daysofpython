@@ -18,3 +18,4 @@ _Starting with intermediate level_
 * **Day 26**: NATO alphabet project
 * **Day 27**: cm to feet converter
 * **Day 28**: Promodoro method timer
+* **Day 29**: Password manager
