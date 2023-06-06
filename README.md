@@ -19,3 +19,4 @@ _Starting with intermediate level_
 * **Day 27**: cm to feet converter
 * **Day 28**: Promodoro method timer
 * **Day 29**: Password manager
+* **Day 30**: Include exception handling to previous projects
