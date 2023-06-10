@@ -3,3 +3,6 @@
 **.csv
 **.lock
 **.toml
+
+receiver_emails.csv
+sender_email.csv

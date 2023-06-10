@@ -20,3 +20,5 @@ _Starting with intermediate level_
 * **Day 28**: Promodoro method timer
 * **Day 29**: Password manager
 * **Day 30**: Include exception handling to previous projects
+* **Day 31**: Flash cards
+* **Day 32**: Email sender (stopped because currently no found solution has worked)
