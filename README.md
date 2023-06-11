@@ -22,3 +22,6 @@ _Starting with intermediate level_
 * **Day 30**: Include exception handling to previous projects
 * **Day 31**: Flash cards
 * **Day 32**: Email sender (stopped because currently no found solution has worked)
+* **Day 33**: Notify if ISS is overhead
+* **Day 34**: Quizzler app
+* **Day 35**: Weather notifier
