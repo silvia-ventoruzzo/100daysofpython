@@ -25,3 +25,8 @@ _Starting with intermediate level_
 * **Day 33**: Notify if ISS is overhead
 * **Day 34**: Quizzler app
 * **Day 35**: Weather notifier
+* **Day 36**: Stock trading news alert
+* **Day 37**: Habit tracker
+* **Day 38**: Workout tracker
+* **Day 39**: Flight deals alert (by SMS)
+* **Day 40**: Flight deals alert (by email)
