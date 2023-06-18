@@ -31,3 +31,4 @@ _Starting with intermediate level_
 * **Day 39**: Flight deals alert (by SMS)
 * **Day 40**: Flight deals alert (by email)
 * **Day 41**: Intro to HTML
+* **Day 42**: Intermediate HTML
